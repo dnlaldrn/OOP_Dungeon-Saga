@@ -22,10 +22,148 @@ Your goal?
 ---
 
 ## Object-Oriented Principles
+## 🔐 1. Encapsulation
+**Definition:**
+Encapsulation means restricting direct access to an object’s internal data and exposing it through methods.
+**✔ How the code demonstrates it:**
+* All attributes in `Enemy` and `Hero` are declared `private` or `protected`.
+* Access is provided only through getter methods:
+```java
+public String getName() { return name; }
+public int getHp() { return hp; }
+```
+* Methods such as:
+```java
+public void takeDamage(int dmg)
+public void restoreToFull()
+```
+
+safely modify the object’s internal state.
+
+**🔎 Why it matters:**
+Encapsulation prevents unwanted external modification and preserves data integrity.
+
+---
+
+## 🎭 2. Abstraction
+
+**Definition:**
+Abstraction means focusing on what an object does, not how it does it.
+
+**✔ How the code demonstrates it:**
+
+* The `Hero` class is declared abstract:
+
+```java
+public abstract class Hero
+```
+
+* It defines abstract behavior:
+
+```java
+public abstract void useSpecial(Enemy enemy);
+```
+
+* Common hero features like HP, attack, blocking, and special skill tracking are all handled within the abstract base class.
+
+**🔎 Why it matters:**
+Abstraction simplifies the design and forces subclasses to define their own unique behavior.
+
+---
+
+## 🧬 3. Inheritance
+
+**Definition:**
+Inheritance allows child classes to reuse and extend behavior from a parent class.
+
+**✔ How the code demonstrates it:**
+
+* `Knight` and `Wizard` both extend the `Hero` class:
+
+```java
+public class Knight extends Hero { ... }
+public class Wizard extends Hero { ... }
+```
+
+* They automatically inherit:
+
+  * HP, attack, name fields
+  * Damage system (`takeDamage`)
+  * Special usage tracking
+  * Block system
+  * Getter methods
+
+**🔎 Why it matters:**
+Inheritance reduces duplicate code and organizes objects into meaningful hierarchies.
+
+---
+
+## 🔄 4. Polymorphism
+
+**Definition:**
+Polymorphism allows different objects to be treated as the same type while exhibiting unique behavior.
+
+**✔ How the code demonstrates it:**
+
+* Each subclass provides its own version of the `useSpecial` method:
+
+```java
+@Override
+public void useSpecial(Enemy enemy) { ... }
+```
+
+* Example behaviors:
+
+  * `Knight` deals damage and enables block
+  * `Wizard` heals itself instead
+
+* Both can be used interchangeably:
+
+```java
+Hero hero = new Knight();
+hero.useSpecial(enemy); // Knight's behavior
+
+hero = new Wizard();
+hero.useSpecial(enemy); // Wizard's behavior
+```
+
+**🔎 Why it matters:**
+Polymorphism makes the game system flexible and expandable — new hero types are easy to add.
 
 ---
 
 ## Example Output
+```
+Choose Action:
+1) Attack
+2) Defend
+3) Special
+Input: 1
+White Beast takes 25 damage!
+                                                                     /
+                                                                    /
+                                                                   /
+                                               _____,    _..-=-=-=/=-====--,
+                                            _.'a   /  .-',___,..=/-=--==-'`
+                                          ( _     \ /  //___/-=-/-=----'
+                                           ` `\    /  //---/--=/----=-'
+                                        ,-.    | / \_//-_.'==-/=---='
+                                       (.-.`\  | |'../-'=-=-=/=--'
+                    /7                  (' `\`\| //_|-\.`;-~/```~,        _
+         .-.       //                        \ | \_,_,_\.' /      \     .'_`\
+        (* *)     //                           \          / ,    , \    || `\\
+         '.'     //                             \    /   /.--\    \ '._.'/  / |
+ _.^._-"""''"""-//                               /  /`--/'   \ \   |`'---'   \/
+|  |  |"|   |''//                               / /'   /      \ ;-. \
+|==+==| |   |  '                             __/ /    /      __) \ ) `|
+|_ | _| |___|                               ((='--;) /       (,___/(,_/
+  'v'  /     \                                      /
+      /  / \  '                                    /
+     /  /   | |                                   /
+    /  /    | |
+   _' '.   ." ".. 
+  '""""     """"
+```
 
 ---
 
