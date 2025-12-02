@@ -41,14 +41,14 @@ Your goal?
     <td><p align="center">
     <img src="images/laganzon.jpg" width="120"></p></td>
     <td>Laganzon, Adrian G. </td>
-    <td></td>
+    <td><a href="https://github.com/DIAN0402">DIAN0402</a></td>
   </tr>
   <tr>
     <td>
     <p align="center">
     <img src="images/manjares.jpg" width="120"></p></td>
     <td>Manjares, Daniel Aldreen C.</td>
-    <td></td>
+    <td><a href="https://github.com/dnlaldrn">dnlaldrn</a></td>
   </tr>
 
   <tr>
@@ -56,6 +56,6 @@ Your goal?
     <p align="center">
     <img src="images/sayson.jpg" width="120"></p></td>
     <td>Sayson, Gabriel F.</td>
-    <td></td>
+    <td><a href="https://github.com/gaabbb314">gaabbb314</a></td>
   </tr>
 </table>
