@@ -131,6 +131,28 @@ hero.useSpecial(enemy); // Wizard's behavior
 Polymorphism makes the game system flexible and expandable — new hero types are easy to add.
 
 ---
+## 🏃 How to Run
+
+1. **Clone the repository**  
+```bash
+git clone https://github.com/dnlaldrn/OOP_Dungeon-Saga.git
+```
+
+2. **Navigate to the source folder**  
+```bash
+cd OOP_Dungeon-Saga/src
+```
+
+3. **Compile all Java files**  
+```bash
+javac *.java
+```
+
+4. **Run the game**  
+```bash
+java DungeonSagaMain
+```
+---
 
 ## Example Output
 ```
