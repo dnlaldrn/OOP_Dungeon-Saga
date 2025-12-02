@@ -1,4 +1,4 @@
-﻿# 🏰 Dungeon Saga
+﻿<h1 align="center">Dungeon Saga</h1>
 
 **Dungeon Saga** is a **turn-based strategy game** where players can choose from **three heroes** — **Knight**, **Assassin**, or **Wizard** — each with unique stats and a one-time **special ability** that can change the tide of battle.
 
@@ -21,29 +21,36 @@ Your goal?
 
 ---
 
-## 🕹️ Gameplay Overview
-1. Choose your hero: **Knight**, **Assassin**, or **Wizard**.  
-2. Battle through waves of enemies in a **turn-based combat** system.  
-3. Use normal attacks, defend, or activate your **special ability** when the time is right.  
-4. Defeat all enemies to **win the game**.
+## Object-Oriented Principles
 
 ---
 
-## 🧩 Future Improvements
-- Add more hero classes and enemies  
-- Implement inventory and item drops  
-- Include save/load game progress  
-- Add background music and sound effects
+## Example Output
 
 ---
 
-## 🛠️ Technologies Used
-- **Java** (Core logic and object-oriented design)
-- **OOP Concepts:** Encapsulation, Inheritance, Polymorphism, and Abstraction
+## Team Contributors
 
----
+<table>
+  <tr>
+    <th>Angry Birds Members</th>
+    <th>Name</th>
+    <th>GitHub</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Laganzon, Adrian G. </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Manjares, Daniel Aldreen C.</td>
+    <td></td>
+  </tr>
 
-## 🚀 Getting Started
-
-### 1. Clone the repository
-```bash
+  <tr>
+    <td></td>
+    <td>Sayson, Gabriel F.</td>
+    <td></td>
+  </tr>
+</table>
