@@ -193,7 +193,7 @@ White Beast takes 25 damage!
     <td>
     <p align="center">
     <img src="images/sayson.jpg" width="120"></p></td>
-    <td>Sayson, Gabriel F.</td>
+    <td>Sayson, Ian Gabriel F.</td>
     <td><a href="https://github.com/gaabbb314">gaabbb314</a></td>
   </tr>
 </table>
