@@ -38,18 +38,23 @@ Your goal?
     <th>GitHub</th>
   </tr>
   <tr>
-    <td></td>
+    <td><p align="center">
+    <img src="images/laganzon.jpg" width="120"></p></td>
     <td>Laganzon, Adrian G. </td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
+    <td>
+    <p align="center">
+    <img src="images/manjares.jpg" width="120"></p></td>
     <td>Manjares, Daniel Aldreen C.</td>
     <td></td>
   </tr>
 
   <tr>
-    <td></td>
+    <td>
+    <p align="center">
+    <img src="images/sayson.jpg" width="120"></p></td>
     <td>Sayson, Gabriel F.</td>
     <td></td>
   </tr>
