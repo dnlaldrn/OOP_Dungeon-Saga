@@ -153,6 +153,27 @@ javac *.java
 java DungeonSagaMain
 ```
 ---
+## 🗂️ File Structure
+
+```
+OOP_Dungeon-Saga/
+├── src/                   # Source code files (Java classes)
+│   ├── DungeonSagaMain.java
+│   ├── Hero.java
+│   ├── Knight.java
+│   ├── Wizard.java
+│   ├── Assassin.java
+│   ├── Enemy.java
+│   └── (other game classes)
+├── images/                # Character images and assets
+│   ├── manjares.jpg
+│   ├── laganzon.jpg
+│   └── sayson.jpg
+├── README.md              # Project README file
+└── LICENSE                # License file (if applicable)
+```
+
+---
 
 ## Example Output
 ```
