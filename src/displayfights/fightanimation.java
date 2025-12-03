@@ -1,3 +1,8 @@
+package displayfights;
+
+import fight.Hero;
+import fight.Enemy;
+
 public class fightanimation {
     private String heroName;
     private String location;

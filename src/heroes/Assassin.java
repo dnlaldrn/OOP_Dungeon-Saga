@@ -1,3 +1,8 @@
+package heroes;
+
+import fight.Enemy;
+import fight.Hero;
+
 public class Assassin extends Hero {
     public Assassin() {
         this.name = "Assassin";

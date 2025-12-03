@@ -1,5 +1,13 @@
 import java.util.*;
 
+import displayfights.DisplayFight;
+import fight.Enemy;
+import fight.Fight;
+import fight.Hero;
+import heroes.Assassin;
+import heroes.Knight;
+import heroes.Wizard;
+
 public class DungeonSagaMain {
     private static final Scanner scanner = new Scanner(System.in);
     private static final Random rand = new Random();

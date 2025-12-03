@@ -1,4 +1,8 @@
+package fight;
+
 import java.util.*;
+
+import displayfights.*;
 
 public class Fight {
     private static Scanner scanner = new Scanner(System.in);

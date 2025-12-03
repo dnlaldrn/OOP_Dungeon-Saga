@@ -1,3 +1,4 @@
+package fight;
 public abstract class Hero {
     protected String name;
     protected int hp;
